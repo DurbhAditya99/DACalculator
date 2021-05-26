@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Architects+Daughter');
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.keypad {
+  margin-top: 10%;
+  border-radius: 10%;
+  display:grid;
+  grid-template-columns: repeat(4 ,1fr);
+  grid-auto-rows: minmax(55px,auto);
+  font-family: 'Architects Daughter';
+  font-size: 10%;
+
+} 
+.calc{
+ 
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-color: black;
+  border-radius: 5%;
+  height: 700px;
+  width: 60%;
+
+}
+.calc input{
+  height: 10%;
+  width: 70%;
+  margin-top: 2%;
+  font-size: 1cm; 
+  
+}
+
+.calc h1{
+
+
+  font-size: 2cm;
+  font-family: 'Architects Daughter'; 
+  
+}
